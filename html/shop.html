@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veloura | Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="login.html" class="brand" aria-label="Veloura home">
+          <span class="brand-mark">V</span>
+          <span>Veloura</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="login.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="checkout.html" class="btn btn-light">Cart (2)</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-banner">
+        <div class="container">
+          <p class="eyebrow">Shop the collection</p>
+          <h1>Curated essentials for every day.</h1>
+        </div>
+      </section>
+
+      <section class="section-spacing">
+        <div class="container shop-layout">
+          <aside class="shop-sidebar">
+            <h3>Filter by</h3>
+            <div class="filter-group">
+              <h4>Category</h4>
+              <label><input type="checkbox" checked /> Women</label>
+              <label><input type="checkbox" checked /> Men</label>
+              <label><input type="checkbox" /> Accessories</label>
+            </div>
+
+            <div class="filter-group">
+              <h4>Price</h4>
+              <label><input type="radio" name="price" checked /> Under $100</label>
+              <label><input type="radio" name="price" /> $100 - $200</label>
+              <label><input type="radio" name="price" /> $200+</label>
+            </div>
+          </aside>
+
+          <div class="shop-products">
+            <div class="product-grid shop-grid">
+              <article class="product-card">
+                <div class="product-image">
+                  <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="Layered knit" />
+                </div>
+                <div class="product-info">
+                  <div class="product-topline">
+                    <span>Women</span>
+                    <span>$74</span>
+                  </div>
+                  <h3>Horizon Knit</h3>
+                  <a href="checkout.html" class="btn btn-primary btn-small">Add to cart</a>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <div class="product-image">
+                  <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80" alt="Classic jacket" />
+                </div>
+                <div class="product-info">
+                  <div class="product-topline">
+                    <span>Men</span>
+                    <span>$129</span>
+                  </div>
+                  <h3>Aurora Jacket</h3>
+                  <a href="checkout.html" class="btn btn-primary btn-small">Add to cart</a>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <div class="product-image">
+                  <img src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=800&q=80" alt="Monarch dress" />
+                </div>
+                <div class="product-info">
+                  <div class="product-topline">
+                    <span>Women</span>
+                    <span>$98</span>
+                  </div>
+                  <h3>Monarch Dress</h3>
+                  <a href="checkout.html" class="btn btn-primary btn-small">Add to cart</a>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <div class="product-image">
+                  <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80" alt="Cotton tee" />
+                </div>
+                <div class="product-info">
+                  <div class="product-topline">
+                    <span>Men</span>
+                    <span>$56</span>
+                  </div>
+                  <h3>North Tee</h3>
+                  <a href="checkout.html" class="btn btn-primary btn-small">Add to cart</a>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <div class="product-image">
+                  <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80" alt="Statement handbag" />
+                </div>
+                <div class="product-info">
+                  <div class="product-topline">
+                    <span>Accessories</span>
+                    <span>$46</span>
+                  </div>
+                  <h3>Noir Tote</h3>
+                  <a href="checkout.html" class="btn btn-primary btn-small">Add to cart</a>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <div class="product-image">
+                  <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80" alt="Cassie blazer" />
+                </div>
+                <div class="product-info">
+                  <div class="product-topline">
+                    <span>Women</span>
+                    <span>$168</span>
+                  </div>
+                  <h3>Cassie Blazer</h3>
+                  <a href="checkout.html" class="btn btn-primary btn-small">Add to cart</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">V</span>
+            <span>Veloura</span>
+          </div>
+          <p>Elevated essentials for modern living.</p>
+        </div>
+
+        <div>
+          <h3>Visit</h3>
+          <ul>
+            <li>24 Harper Avenue</li>
+            <li>New York, NY</li>
+            <li>hello@veloura.com</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Follow</h3>
+          <ul>
+            <li>Instagram</li>
+            <li>Pinterest</li>
+            <li>Facebook</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Newsletter</h3>
+          <form class="newsletter">
+            <input type="email" placeholder="Your email" aria-label="Email address" />
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span>© 2026 Veloura</span>
+        <span>All rights reserved</span>
+      </div>
+    </footer>
+  </body>
+</html>
