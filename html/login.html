@@ -1,66 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
-<link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veloura | Modern Clothing</title>
+    <meta
+      name="description"
+      content="Veloura is a modern clothing brand blending premium comfort, style, and everyday confidence."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <span class="brand-mark">V</span>
+          <span>Veloura</span>
+        </div>
 
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#collection">Collection</a>
+          <a href="#new-arrivals">New Arrivals</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
 
-</head>
-<body>
-    
+        <div class="nav-actions">
+          <a href="#collection" class="btn btn-light">Shop now</a>
+        </div>
+      </div>
+    </header>
 
-    <div class="dv">
-        <img src="https://aptech-education.com.pk/assets/images/logo.png" alt="">
-<h1 class="h1" >ADDMISSION FORM</h1>
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">New Season · Everyday Luxury</p>
+            <h1>Elevate your wardrobe with timeless style.</h1>
+            <p class="lead">
+              Discover premium essentials designed for movement, comfort, and confidence — crafted to fit every moment of your day.
+            </p>
+            <div class="hero-actions">
+              <a href="#collection" class="btn btn-primary">Shop collection</a>
+              <a href="#about" class="btn btn-ghost">Our story</a>
+            </div>
 
+            <ul class="hero-highlights">
+              <li>Premium fabrics</li>
+              <li>Limited drops</li>
+              <li>Free shipping over $75</li>
+            </ul>
+          </div>
 
-<form action="">
- 
-<input type="text" name="name.txt" id="n.txt" placeholder="enter your name" >
-<br>
-<br>
-<input type="email" id="email" placeholder="enter your email" >
-<br>
-<br>
-<input type="number" id="number" placeholder="enter your number" >
-<br>
-<br>
-<input type="password" id="pass" placeholder="enter your password" >
-<br>
-<br>
-<input type="password" id="pass" placeholder="confirm your password">
-<br>
-<br>
+          <div class="hero-visual" aria-label="Fashion model image">
+            <div class="image-card image-card-main">
+              <img
+                src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80"
+                alt="Model wearing modern fashion"
+              />
+            </div>
+            <div class="floating-note note-one">
+              <span>Best Seller</span>
+              <strong>Urban Layer</strong>
+            </div>
+            <div class="floating-note note-two">
+              <span>4.9/5 reviews</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<div class="dvsb">
-<a href="sec.html" class="sb" onclick="sayhello()" >
-    SUBMIT
-</a>
-<script src="c:\Users\student\Desktop\.vs\first.js"></script>
+      <section class="stats">
+        <div class="container stats-grid">
+          <div>
+            <strong>12k+</strong>
+            <span>Happy customers</span>
+          </div>
+          <div>
+            <strong>320+</strong>
+            <span>Curated styles</span>
+          </div>
+          <div>
+            <strong>48h</strong>
+            <span>Dispatch time</span>
+          </div>
+          <div>
+            <strong>4.9</strong>
+            <span>Average rating</span>
+          </div>
+        </div>
+      </section>
 
-</div>
+      <section id="collection" class="collection section-spacing">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Featured collection</p>
+            <h2>Designed for everyday confidence.</h2>
+          </div>
 
+          <div class="category-grid">
+            <article class="category-card">
+              <img
+                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80"
+                alt="Women's collection"
+              />
+              <div class="card-overlay">
+                <span>Women</span>
+                <h3>Soft structure</h3>
+              </div>
+            </article>
 
-</form>
-</div>
+            <article class="category-card">
+              <img
+                src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+                alt="Men's collection"
+              />
+              <div class="card-overlay">
+                <span>Men</span>
+                <h3>Clean essentials</h3>
+              </div>
+            </article>
 
+            <article class="category-card">
+              <img
+                src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80"
+                alt="Accessories collection"
+              />
+              <div class="card-overlay">
+                <span>Accessories</span>
+                <h3>Refined details</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
+      <section id="new-arrivals" class="products section-spacing">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">New arrivals</p>
+              <h2>Fresh pieces to level up your look.</h2>
+            </div>
+            <a href="#contact" class="text-link">View all styles</a>
+          </div>
 
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="Horizon knit" />
+              </div>
+              <div class="product-info">
+                <div class="product-topline">
+                  <span>Cozy layers</span>
+                  <span>$74</span>
+                </div>
+                <h3>Horizon Knit</h3>
+              </div>
+            </article>
 
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80" alt="Aurora jacket" />
+              </div>
+              <div class="product-info">
+                <div class="product-topline">
+                  <span>Outerwear</span>
+                  <span>$129</span>
+                </div>
+                <h3>Aurora Jacket</h3>
+              </div>
+            </article>
 
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=800&q=80" alt="Monarch dress" />
+              </div>
+              <div class="product-info">
+                <div class="product-topline">
+                  <span>Statement</span>
+                  <span>$98</span>
+                </div>
+                <h3>Monarch Dress</h3>
+              </div>
+            </article>
 
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="Noir tote" />
+              </div>
+              <div class="product-info">
+                <div class="product-topline">
+                  <span>Accessories</span>
+                  <span>$46</span>
+                </div>
+                <h3>Noir Tote</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
+      <section class="promo-banner">
+        <div class="container promo-inner">
+          <div>
+            <p class="eyebrow">Limited edition</p>
+            <h2>Spring drop is here.</h2>
+          </div>
+          <a href="#contact" class="btn btn-primary">Get 15% off</a>
+        </div>
+      </section>
 
+      <section id="about" class="about section-spacing">
+        <div class="container about-layout">
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80"
+              alt="Veloura brand aesthetic"
+            />
+          </div>
 
+          <div class="about-copy">
+            <p class="eyebrow">Our philosophy</p>
+            <h2>Wear pieces that move with you.</h2>
+            <p>
+              At Veloura, we create modern essentials with elevated silhouettes, premium comfort, and a confident edge. Every collection is made to help you feel polished, expressive, and at ease in everyday life.
+            </p>
+            <ul class="check-list">
+              <li>Thoughtful, premium-quality materials</li>
+              <li>Designed for everyday versatility</li>
+              <li>Ethically crafted with a conscious mindset</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
+      <section class="testimonials section-spacing">
+        <div class="container">
+          <div class="section-heading center-heading">
+            <p class="eyebrow">Customer love</p>
+            <h2>Style that speaks for itself.</h2>
+          </div>
 
+          <div class="testimonial-grid">
+            <blockquote>
+              “The quality is incredible and the fit is perfect. I get compliments every time I wear it.”
+              <footer>— Aisha M.</footer>
+            </blockquote>
+            <blockquote>
+              “Veloura blends comfort and luxury in a way that feels effortless and flattering.”
+              <footer>— Daniel K.</footer>
+            </blockquote>
+            <blockquote>
+              “Their pieces are minimal, chic, and exactly what I’ve been searching for.”
+              <footer>— Sara T.</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">V</span>
+            <span>Veloura</span>
+          </div>
+          <p>Elevated essentials for modern living.</p>
+        </div>
 
+        <div>
+          <h3>Visit</h3>
+          <ul>
+            <li>24 Harper Avenue</li>
+            <li>New York, NY</li>
+            <li>hello@veloura.com</li>
+          </ul>
+        </div>
 
+        <div>
+          <h3>Follow</h3>
+          <ul>
+            <li>Instagram</li>
+            <li>Pinterest</li>
+            <li>Facebook</li>
+          </ul>
+        </div>
 
+        <div>
+          <h3>Newsletter</h3>
+          <form class="newsletter">
+            <input type="email" placeholder="Your email" aria-label="Email address" />
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </div>
 
-
-</body>
+      <div class="container footer-bottom">
+        <span>© 2026 Veloura</span>
+        <span>All rights reserved</span>
+      </div>
+    </footer>
+  </body>
 </html>
+
